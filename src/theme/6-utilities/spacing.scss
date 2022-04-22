@@ -1,0 +1,136 @@
+@import "../1-variables/spacers";
+
+.m-0 {
+  margin: 0;
+}
+
+.mt-0 {
+  margin-top: 0;
+}
+
+.mr-0 {
+  margin-right: 0;
+}
+
+.mb-0 {
+  margin-bottom: 0;
+}
+
+.ml-0 {
+  margin-left: 0;
+}
+
+.m-1 {
+  margin: $spacer-xs;
+}
+
+.mt-1 {
+  margin-top: $spacer-xs; 
+}
+
+.mr-1 {
+  margin-right: $spacer-xs; 
+}
+
+.mb-1 {
+  margin-bottom: $spacer-xs; 
+}
+
+.ml-1 {
+  margin-left: $spacer-xs; 
+}
+
+.m-2 {
+  margin: $spacer-sm;
+}
+
+.mt-2 {
+  margin-top: $spacer-sm; 
+}
+
+.mr-2 {
+  margin-right: $spacer-sm; 
+}
+
+.mb-2 {
+  margin-bottom: $spacer-sm; 
+}
+
+.ml-2 {
+  margin-left: $spacer-sm; 
+}
+
+.m-3 {
+  margin: $spacer-md; 
+}
+
+.mt-3 {
+  margin-top: $spacer-md; 
+}
+
+.mr-3 {
+  margin-right: $spacer-md; 
+}
+
+.mb-3 {
+  margin-bottom: $spacer-md; 
+}
+
+.ml-3 {
+  margin-left: $spacer-md; 
+}
+
+.m-4 {
+  margin: $spacer-lg;
+}
+
+.mt-4 {
+  margin-top: $spacer-lg;
+}
+
+.mr-4 {
+  margin-right: $spacer-lg;
+}
+
+.mb-4 {
+  margin-bottom: $spacer-lg;
+}
+
+.ml-4 {
+  margin-left: $spacer-lg;
+}
+
+// TODO: refactor too bootstrap function
+//@each $breakpoint in map-keys($grid-breakpoints) {
+//  @include media-breakpoint-up($breakpoint) {
+//    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+//
+//    @each $prop, $abbrev in (padding: p) {
+//      @each $size, $length in $sizers {
+//        .#{$abbrev}#{$infix}-#{$size} {
+//          #{$prop}: $length !important;
+//        }
+//
+//        .#{$abbrev}t#{$infix}-#{$size},
+//        .#{$abbrev}y#{$infix}-#{$size} {
+//          #{$prop}-top: $length !important;
+//        }
+//
+//        .#{$abbrev}r#{$infix}-#{$size},
+//        .#{$abbrev}x#{$infix}-#{$size} {
+//          #{$prop}-right: $length !important;
+//        }
+//
+//        .#{$abbrev}b#{$infix}-#{$size},
+//        .#{$abbrev}y#{$infix}-#{$size} {
+//          #{$prop}-bottom: $length !important;
+//        }
+//
+//        .#{$abbrev}l#{$infix}-#{$size},
+//        .#{$abbrev}x#{$infix}-#{$size} {
+//          #{$prop}-left: $length !important;
+//        }
+//      }
+//    }
+//  }
+//}
